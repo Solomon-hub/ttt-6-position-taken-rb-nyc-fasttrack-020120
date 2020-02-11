@@ -44,5 +44,6 @@ describe '#position_taken? in lib/position_taken.rb' do
 end
 
 board = [9, " "]
+index = gets.strip.to_i
 position_taken?(board,0)
 
