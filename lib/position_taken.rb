@@ -1,5 +1,5 @@
 board = ([9, " "])
-index = gets.strip.to_i 
+
 def position_taken?(board, index)
   ((board[index] == "X") || (board[index] == "O"))
 
